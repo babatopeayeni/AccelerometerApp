@@ -2,7 +2,7 @@
 
 ## Overview  
 AccelerometerApp is an Android application that reads real-time accelerometer data, displays it in a grid alongside user-managed entries (e.g., inventory items, events, or weight logs), and optionally sends SMS alerts when configurable thresholds are met. The app’s primary goal is to give users an intuitive, persistent interface for monitoring motion data and custom entries while providing timely notifications.
- <img src="https://imgur.com/a/7aYSKUw.png"/>
+ <img src="https://imgur.com/a/7aYSKUw"/>
 
 
  
