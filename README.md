@@ -4,7 +4,8 @@
 AccelerometerApp is an Android application that reads real-time accelerometer data, displays it in a grid alongside user-managed entries (e.g., inventory items, events, or weight logs), and optionally sends SMS alerts when configurable thresholds are met. The app’s primary goal is to give users an intuitive, persistent interface for monitoring motion data and custom entries while providing timely notifications.
 
 ---
-
+ ![AccelerometerApp](https://github.com/user-attachments/assets/ee82db4d-7474-43c3-b600-aa89bcbc9097)
+ 
 ## Requirements & Goals  
 - **User Authentication:** Allow new users to register and returning users to log in, with credentials stored in a local SQLite database.  
 - **Data Management Shell:** Create a persistent database schema that supports CRUD operations on the core dataset (accelerometer readings or user-defined entries) and on user records.  
@@ -61,7 +62,8 @@ Implementing the SMS permission flow with a graceful fallback required innovatin
 ---
 
 ## Highlighted Component  
-The **SMS permission & notification module** best showcases my skills. It demonstrates:  
+The **SMS permission & notification module** best showcases my skills. It demonstrates: 
+
 - Deep understanding of Android’s runtime permission model.  
 - Clean separation of concerns (UI prompt vs. SMS dispatch logic).  
 - Robust testing of both allowed and denied permission scenarios, ensuring user privacy and uninterrupted core functionality.
